@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:MedievalSharp ,Arial, Helvetica, sans-serif; 
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: rgb(104, 182, 159);
+}
+
+.flex-container {
+    width: 90%;
+height: 200px;
+background-color: rgb(168, 209, 197);
+margin: 0 auto 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(214, 238, 230);
+    border: 2px solid  rgb(56, 172, 143);
+    border-radius: 20px;
+    margin: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
