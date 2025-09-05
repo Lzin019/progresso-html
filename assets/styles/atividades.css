@@ -38,6 +38,10 @@
     justify-content: center;
     height: 600px;
     gap: 30px;
+    background-color: rgb(65, 65, 64);
+    width: 220px;
+    border-radius: 25px;
+    margin: 0 auto 30px;
  }
 
  .sinal {
@@ -47,13 +51,13 @@
  }
 
  .vermelho {
-    background-color: rgb(255, 0, 0);
+    background-color:red
  }
 
  .amarelo {
-    background-color: rgb(255, 203, 70);
+    background-color:yellow
  }
 
- .green {
-    background-color: rgb(0, 255, 76);
+ .verde {
+    background-color:rgb(0, 255, 0)
  }
