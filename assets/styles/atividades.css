@@ -42,22 +42,27 @@
     width: 220px;
     border-radius: 25px;
     margin: 0 auto 30px;
+    
  }
 
  .sinal {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
  }
 
  .vermelho {
-    background-color:red
+    background-color:red;
+    box-shadow: 0 0 20px rgb(236, 48, 1);
  }
 
  .amarelo {
-    background-color:yellow
+    background-color:yellow;
+    box-shadow: 0 0 20px rgb(217, 255, 0);
  }
 
  .verde {
-    background-color:rgb(0, 255, 0)
+    background-color:rgb(0, 255, 0);
+    box-shadow: 0 0 20px rgb(0, 255, 76);
  }
+
